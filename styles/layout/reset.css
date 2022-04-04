@@ -113,8 +113,8 @@ input[type="text"]::placeholder {
 }
 
 button {
+  all: unset;
   cursor: pointer;
-  font-family: inherit;
 }
 
 ul {
