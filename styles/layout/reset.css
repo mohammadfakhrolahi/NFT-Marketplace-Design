@@ -43,6 +43,20 @@
   --font-size-xl: 1.5rem;
 }
 
+/* ----- Animation Gradient ----- */
+/* For Background */
+@keyframes AnimationName {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 51%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
 /* Light Theme Colors */
 .light-theme {
   --primary-color: #5142fb;
