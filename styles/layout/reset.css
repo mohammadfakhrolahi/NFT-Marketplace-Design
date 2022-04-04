@@ -1,8 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 
 :root {
-  --primary-color: #4e3fee;
+  --primary-color: #5142fb;
+  --primary-purple: #6945f7;
   --light-color: #fffafa;
+  --white-transparent: rgba(255, 255, 255, 0.514);
+  --white: #ffffff;
+  --black: #000000;
+  --orchid: #c750e5;
+  --green: #46a433;
+  --red: #df4949;
 
   /* Texts */
   --light-gray-color: #adadb0;
@@ -16,6 +23,10 @@
   --black-color: #030303;
   /* Footer bg */
   --midnight-color: #0d0d12;
+  --icon-color: rgba(255, 255, 255, 0.288);
+  /* Shadow */
+  --shadow: #292933;
+  --shadow2: rgba(255, 255, 255, 0);
 
   --border-raduis-tiny: 0.12rem;
   --border-raduis-xs: 0.25rem;
@@ -30,6 +41,34 @@
   --font-size-md: 1rem;
   --font-size-lg: 1.25rem;
   --font-size-xl: 1.5rem;
+}
+
+/* Light Theme Colors */
+.light-theme {
+  --primary-color: #5142fb;
+  --primary-purple: #6945f7;
+  --light-color: #1f1415;
+  --white-transparent: rgba(255, 255, 255, 0.514);
+  --white: #ffffff;
+  --black: #000000;
+  --orchid: #c750e5;
+  --green: #46a433;
+  --red: #df4949;
+
+  /* Texts */
+  --light-gray-color: #68686b;
+  /* Secondary btn border */
+  --gray-color: #606067;
+  /* Icons bg, Cards bg, */
+  --dark-gray-color: #eeeeff;
+  /* Background */
+  --dark-color: #fffafa;
+  /* Live Auctions, Footer */
+  --black-color: #f8f9fc;
+  --icon-color: rgba(0, 0, 0, 0.158);
+  /* Shadow */
+  --shadow: #292933;
+  --shadow2: rgba(255, 255, 255, 0);
 }
 
 *,

@@ -47,3 +47,9 @@ for (let el of majidIncome) {
 for (let item in majidObj) {
   console.log("obj", item);
 }
+
+// Dark-Light mode toggle
+const themeToggle = () => {
+  const element = document.body
+  element.classList.toggle('light-theme')
+}
